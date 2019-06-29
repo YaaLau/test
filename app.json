@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/Performance/Performance",
+    "pages/movie/movie",
+    "pages/movie2/movie2",
+    "pages/competet/competet",
+    "pages/project/project",
+    "pages/yingyuan/yingyuan",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "imgs/电影_line.png",
+        "selectedIconPath": "imgs/电影_line (1).png"
+      },
+      {
+        "pagePath": "pages/yingyuan/yingyuan",
+        "text": "影院",
+        "iconPath": "imgs/影院A.png",
+        "selectedIconPath": "imgs/影院A (1).png"
+      },
+      {
+        "pagePath": "pages/Performance/Performance",
+        "text": "演出",
+        "iconPath": "imgs/icon1_03.png",
+        "selectedIconPath": "imgs/icon2_03.png"
+      },
+      {
+        "pagePath": "pages/competet/competet",
+        "text": "赛事",
+        "iconPath": "imgs/赛事.png",
+        "selectedIconPath": "imgs/赛事 (1).png"
+      },
+      {
+        "pagePath": "pages/project/project",
+        "text": "我的",
+        "iconPath": "imgs/我的.png",
+        "selectedIconPath": "imgs/我的 (1).png"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "color": "#000000",
+    "selectedColor": "#C62724"
+  },
+  "sitemapLocation": "sitemap.json"
+}

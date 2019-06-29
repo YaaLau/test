@@ -1,0 +1,297 @@
+.container {
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  background: rgb(248, 246, 246);
+}
+
+.content {
+  width: 750rpx;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+  background: rgb(248, 246, 246);
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  width: 180rpx;
+  height: 60rpx;
+  background: rgb(248, 246, 246);
+}
+
+.text1 {
+  font-size: 32rpx;
+  margin-left: 40rpx;
+  margin-top: 5rpx;
+}
+
+.icon {
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 15rpx;
+  margin-left: 5rpx;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row;
+  width: 550rpx;
+  height: 60rpx;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.icon1 {
+  margin-top: 10rpx;
+  margin-left: 200rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.text2 {
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  margin-top: 5rpx;
+}
+
+.huadong {
+  height: 350rpx;
+  width: 750rpx;
+  background: red;
+}
+
+.box3 {
+  width: 750rpx;
+  height: 350rpx;
+}
+
+.content2 {
+  width: 750rpx;
+  height: 70rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.box4 {
+  margin-top: 10rpx;
+  width: 250rpx;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  background: rgb(248, 246, 246);
+  border-right: thick solid rgba(204, 202, 202, 0.897);
+  border-right-width: 1rpx;
+}
+
+.text4 {
+  margin-top: 5rpx;
+  font-size: 32rpx;
+  margin-left: 70rpx;
+}
+
+.box4 .icon {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.box5 {
+  margin-top: 10rpx;
+  width: 250rpx;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  background: rgb(248, 246, 246);
+  border-right: thick solid rgba(204, 202, 202, 0.897);
+  border-right-width: 1rpx;
+}
+
+.text5 {
+  margin-top: 5rpx;
+  font-size: 32rpx;
+  margin-left: 70rpx;
+}
+
+.box5 .icon {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.box6 {
+  margin-top: 10rpx;
+  width: 250rpx;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  background: rgb(248, 246, 246);
+  border-right: thick solid rgba(204, 202, 202, 0.897);
+  border-right-width: 1rpx;
+}
+
+.text6 {
+  margin-top: 5rpx;
+  font-size: 32rpx;
+  margin-left: 70rpx;
+}
+
+.box6 .icon {
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.cd {
+  width: 750rpx;
+  height: 400rpx;
+  background: rgb(248, 246, 246);
+}
+
+.lm {
+  width: 750rpx;
+  height: 300rpx;
+  background: rgb(248, 246, 246);
+}
+
+.soe {
+  width: 730rpx;
+  height: 300rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-top: thick solid rgba(204, 202, 202, 0.897);
+  border-top-width: 1rpx;
+}
+
+.h1 {
+  margin-top: 35rpx;
+  margin-left: 20rpx;
+  width: 730rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.st1 {
+  font-size: 36rpx;
+}
+
+.st2 {
+  margin-left: 380rpx;
+  color: red;
+}
+
+.st3 {
+  margin-top: 15rpx;
+  font-size: 25rpx;
+}
+
+.h2 {
+  margin-top: 15rpx;
+  width: 730rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.st4 {
+  font-size: 31rpx;
+  margin-left: 20rpx;
+}
+
+.st5 {
+  font-size: 30rpx;
+  margin-left: 70rpx;
+}
+
+.h3 {
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 730rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.st6 {
+  font-size: 28rpx;
+  border: thick solid #589daf;
+  border-width: 3rpx;
+  border-radius: 2px;
+  color: #589daf;
+}
+
+.st7 {
+  font-size: 28rpx;
+  margin-left: 5rpx;
+  border: thick solid #f90;
+  border-width: 3rpx;
+  border-radius: 2px;
+  color: #f90;
+}
+
+.st8 {
+  font-size: 28rpx;
+  margin-left: 5rpx;
+  border: thick solid #f90;
+  border-width: 3rpx;
+  border-radius: 2px;
+  color: #f90;
+}
+
+.h4 {
+  margin-left: 20rpx;
+  width: 730rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.b1 {
+  margin-top: 10rpx;
+  width: 37rpx;
+  height: 37rpx;
+  background: #f90;
+}
+
+.st9 {
+  font-size: 29rpx;
+  margin-left: 5rpx;
+  color: #fff;
+}
+
+.st10 {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+
+.h5 {
+  margin-left: 20rpx;
+  width: 730rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.b2 {
+  margin-top: 10rpx;
+  width: 37rpx;
+  height: 37rpx;
+  background: rgb(113, 2, 240);
+}
+
+.st11 {
+  font-size: 29rpx;
+  margin-left: 5rpx;
+  color: #fff;
+}
+
+.st12 {
+  margin-left: 10rpx;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+
+.st13 {
+}

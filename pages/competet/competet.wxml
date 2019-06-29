@@ -1,0 +1,125 @@
+
+<view class="container">
+  <swiper class='titleView' autoplay='true' duration='{{100}}' interval='{{2000}}'>
+    <view wx:for="{{title_img}}">
+      <swiper-item>
+        <image class='titel_pic' src='{{item}}'></image>
+      </swiper-item>
+    </view>
+
+  </swiper>
+  <view class='frame'>
+  <view class='frame_1'>
+    <image class='frame_pic1' src='{{Urlfile}}定位.png'></image>
+    <view class='frame_text1'>成都</view>
+    <image class='frame_pic2' src='{{Urlfile}}11.png'></image>
+    <image class='frame_pic3' src='{{Urlfile}}搜索2.png'></image>
+    <view class='frame_text2'>搜索赛事</view>
+  </view>
+
+</view>
+  <view class='row3'>
+    <view class='row3_1' wx:for="{{row3}}" wx:key="index">
+      <view class='row3_1i{{index}}'>
+        <image class='img_1' src='{{item.img}}'></image>
+      </view>
+      <view class='texte_row3'>{{item.name}}</view>
+    </view>
+  </view>
+  <view class='row4'>
+    <image class='row4_pic' src='{{Urlfile}}fo_s1.jpg'></image>
+  </view>
+  <view class='row5'>
+    <image class='row5_pic1' src='{{Urlfile}}fi_s1.jpg'></image>
+    <image class='row5_pic2' src='{{Urlfile}}fi_s2.jpg'></image>
+    <image class='row5_pic2' src='{{Urlfile}}fi_s3.jpg'></image>
+  </view>
+  <view class='row6'>
+    <view class='row6_1'>
+      <image class='row6_1pic' src='{{Urlfile}}日历.png'></image>
+      <view class='row6_1text'>活动日历</view>
+    </view>
+    <view class='row6_2'>
+      <view class='row6_2text'>查看</view>
+      <image class='row6_2pic' src='{{Urlfile}}右箭头.png'></image>
+
+    </view>
+  </view>
+  <scroll-view style='width:750rpx;white-space: nowrap;' scroll-x="true">
+
+    <view style=" width: 200px; height: 100px; display: inline-block">
+      <image class='scroll_pic' src='{{Urlfile}}si_s1.jpg'></image>
+    </view>
+    <view class='scroll_text' style=" width: 200px; height: 100px; display: inline-block">
+      <image class="scroll_pic2" src='{{Urlfile}}si_s2.jpg'></image>
+    </view>
+
+  </scroll-view>
+
+  <view class='row7'>
+    <image class='row7_pic' src='{{Urlfile}}sv_s1.jpg'></image>
+  </view>
+  <view class='row7_1'>
+    <view class='row7_11'>周边场馆</view>
+  </view>
+  <view class='row8'>
+    <view class='row8_1x'>
+      <view class='row81'>
+
+        <image class='row81_pic' src='{{Urlfile}}et_s1.jpg'></image>
+        <view class='row81_text'>
+          <view class='row81_text1'>天府芙蓉园欧洲草坪区</view>
+          <view class='row81_text2'>1场活动</view>
+        </view>
+      </view>
+      <view class='row8_2'>
+        <view class='row8_2text'>查看</view>
+        <image class='row8_2pic' src='{{Urlfile}}右箭头.png'></image>
+
+      </view>
+    </view>
+    <view class='row8_1xView'>
+      <view class='row8_1x1'>[成都]荧光酷跑2019成都闪光电音跑</view>
+      <view class='row8_1x2'>5.709km</view>
+    </view>
+  </view>
+  <view class='row7_1'>
+    <view class='row7_11'>推荐活动</view>
+  </view>
+  <view class='row9'>
+    <image class='row9_1' src='{{Urlfile}}fl1.jpg'></image>
+    <view class='row9_2'>
+      <view class='row9_2text1'>[成都]荧光酷跑2019成都闪光电音跑</view>
+      <view class='row9_2text2'>2019/7/27 19:00:00</view>
+      <view class='row9_2text3'>天府芙蓉园欧洲草坪区</view>
+      <view class='row9_2text4'>
+        <view class='row9_2text11' style='color:#FF9326;'>39</view>
+        <view class='row9_2text12'>元起</view>
+      </view>
+    </view>
+  </view>
+  <view class='row9'>
+    <image class='row9_1' src='{{Urlfile}}fl2.jpg'></image>
+    <view class='row9_2'>
+      <view class='row9_2text1'>[全国]2019爱奇艺体育会员系列产品</view>
+      <view class='row9_2text2'>2019/12/31</view>
+      <view class='row9_2text3'>爱奇艺</view>
+      <view class='row9_2text4'>
+        <view class='row9_2text11' style='color:#FF9326;'>6</view>
+        <view class='row9_2text12'>元起</view>
+      </view>
+    </view>
+  </view>
+  <view class='row9'>
+    <image class='row9_1' src='{{Urlfile}}fl3.jpg'></image>
+    <view class='row9_2'>
+      <view class='row9_2text1'>[上海]123少儿足球体验课(1元体验)</view>
+      <view class='row9_2text2'>2019年1月1日~12月31日</view>
+      <view class='row9_2text3'>上海地区</view>
+      <view class='row9_2text4'>
+        <view class='row9_2text11' style='color:#FF9326;'>1</view>
+        <view class='row9_2text12'>元起</view>
+      </view>
+    </view>
+  </view>
+</view>

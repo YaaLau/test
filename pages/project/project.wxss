@@ -1,0 +1,196 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+}
+.container .nav{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 350rpx;
+  background: red;
+  }
+  .container .nav .head{
+    width: 140rpx;
+    height: 140rpx;
+    margin-top: 130rpx;
+    margin-left: 70rpx;
+  }
+.container .nav .nav_left{
+  display: flex;
+  flex-direction: column;
+}
+.container .nav .nav_left .left_top{
+  display: flex;
+  flex-direction: row;
+  margin-top: 140rpx;
+  margin-left: 28rpx;
+}
+.container .nav .nav_left .left_top .text1{
+  font-size: 50rpx;
+  color: #fff;
+}
+.container .nav .nav_left .left_top .text2{
+  font-size: 25rpx;
+  color: #fff;
+  width: 110rpx;
+  margin-top: 30rpx;
+  margin-left: 20rpx;
+  border: 2rpx solid #fff;
+  border-radius: 35rpx;
+  align-self: center;
+}
+.container .nav .nav_left .left_bottom{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+  margin-left: 28rpx;
+
+}
+.container .nav .nav_left .left_bottom .circleone{
+  display: flex;
+  flex-direction: row;
+  border: 2rpx solid #fff;
+  border-radius: 35rpx;
+  margin-right: 30rpx;
+}
+.container .nav .nav_left .left_bottom .circle{
+  width: 25rpx;
+  margin-top: 8rpx;
+  height: 25rpx;
+}
+.container .nav .nav_left .left_bottom .text3{
+  color: #fff;
+  font-size: 28rpx;
+  margin-right: 12rpx;
+}
+.container .nav .nav_right{
+  display: flex;
+  flex-direction: column;
+}
+.container .nav .nav_right .set{
+  width: 45rpx;
+  height: 45rpx;
+  margin-top: 120rpx;
+  margin-left: 130rpx;
+}
+.container .nav .nav_right .icon{
+  width: 150rpx;
+  height: 80rpx;
+  margin-top: 40rpx;
+  margin-left: 55rpx;
+
+}
+.container .dingdan{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 750rpx;
+  margin-top: 20rpx;
+}
+.container .text4{
+  margin-left: 20rpx;
+  font-size: 40rpx;
+}
+.hen{
+  width: 750rpx;
+  border: 1rpx solid #F5F5F5;
+}
+.hen1{
+  width: 750rpx;
+  border: 1rpx solid #F5F5F5;
+}
+.hen2{
+  width: 750rpx;
+  border: 1rpx solid #F5F5F5;
+  margin-top: 20rpx;
+}
+.container .box{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30rpx;
+  margin-right: 75rpx;
+}
+
+.container .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 80rpx;
+}
+
+.container .item .pic{
+  width: 70rpx;
+  height: 70rpx;
+}
+.container .item .text5{
+  font-size: 30rpx;
+  margin-top: 15rpx;
+}
+.container .content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  width: 730rpx;
+}
+.container .content .actv{
+  display: flex;
+  flex-direction: row;
+}
+.container .content .text6{
+  font-size: 30rpx;
+  
+}
+.container .content .icon1{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 5rpx;
+  margin-left:15rpx;
+}
+.container .content2{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between; 
+  width: 730rpx;
+}
+.container .con{
+  width: 300rpx;
+  height: 130rpx;
+  display: flex;
+  flex-direction: row;
+  background: #F5F5F5;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.container .con .hot{
+  width: 150rpx;
+  height: 120rpx;
+}
+.container .con .text7{
+  font-size: 30rpx;
+}
+.text8{
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+  font-size: 40rpx;
+}
+.container .service{
+  display: flex;
+  flex-direction: row;
+}
+.container .service .serviceshow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160rpx;
+  margin-top: 15rpx;
+  margin-left: 20rpx;
+}
+.container .service .serviceshow .picture{
+  width: 80rpx;
+  height: 80rpx;
+}
+.container .service .serviceshow .text9{
+  font-size: 30rpx;
+}

@@ -1,0 +1,82 @@
+<view class='container'>
+  <view class='content'>
+    <view class='box1'>
+      <view class='text1'>成都</view>
+      <image class='icon' src='../../imgs/yy/icon.png'></image>
+    </view>
+
+    <view class='box2'>
+      <image class='icon1' src='../../imgs/yy/sousuo.png'></image>
+      <view class='text2'>找影院</view>
+
+    </view>
+
+
+  </view>
+
+
+<view class='huadong'>
+    <swiper indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
+
+      <view  wx:for='{{imgUrls}}'>
+
+        <swiper-item>
+          <image class='box3' src='{{item}}'></image>
+        </swiper-item>
+      </view>
+
+    </swiper>
+</view>
+
+
+
+  <view class='content2'>
+    <view class='box4'>
+      <view class='text4'>全城</view>
+      <image class='icon' src='../../imgs/yy/icon.png'></image>
+    </view>
+
+    <view class='box5'>
+      <view class='text5'>品牌</view>
+      <image class='icon' src='../../imgs/yy/icon.png'></image>
+    </view>
+
+    <view class='box6'>
+      <view class='text6'>特色</view>
+      <image class='icon' src='../../imgs/yy/icon.png'></image>
+    </view>
+  </view>
+
+<view class='soe'>
+    <view class='h1'>
+      <view class='st1'>SOE精选影城</view>
+      <view class='st2'>23元</view>
+      <view class='st3'>起</view>
+    </view>
+    <view class='h2'>
+      <view class='st4'>武侯区人民南路4段12号华宇蓉国府-1楼</view>
+      <view class='st5'>1.2km</view>
+    </view>
+    <view class='h3'>
+      <view class='st6'>改签</view>
+      <view class='st7'>小吃</view>
+      <view class='st8'>折扣卡</view>
+    </view>
+    <view class='h4'>
+      <view class='b1'>
+        <view class='st9'>惠</view>
+      </view>
+      <view class='st10'>蜘蛛侠：英雄远征特惠</view>
+    </view>
+    <view class='h5'>
+      <view class='b2'>
+        <view class='st11'>卡</view>
+      </view>
+      <view class='st12'>开卡特惠，首单2张立减4元</view>
+    </view>
+  </view>
+
+  <image class='cd' src='../../imgs/yy/cd.png'></image>
+  <image class='lm' src='../../imgs/yy/lm.png'></image>
+  
+</view>

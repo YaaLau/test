@@ -1,0 +1,81 @@
+<!--pages/project/project.wxml-->
+<view class='container'>
+  <view class='nav'>
+    <image class='head' src='../../imgs/imgszhang/头像.png'></image>
+    <view class='nav_left'>
+      <view class='left_top'>
+        <view class='text1'>糖白虎</view>
+        <view class='text2'>普通用户</view>
+      </view>
+      <view class='left_bottom'>
+        <view class='circleone'>
+          <view class='text3'>我的喵币</view>
+          <image class='circle' src='../../imgs/imgszhang/箭头1.png'></image>
+        </view>
+        <view class='circleone'>
+          <view class='text3'>成长值</view>
+          <image class='circle' src='../../imgs/imgszhang/箭头1.png'></image>
+        </view>
+      </view>
+
+
+
+
+
+    </view>
+    <view class='nav_right'>
+      <image class='set' src='../../imgs/imgszhang/设置.png'></image>
+      <image class='icon' src='../../imgs/imgszhang/我的特权.png'></image>
+    </view>
+  </view>
+  <view class='dingdan'>
+    <view class='text4'>我的订单</view>
+  </view>
+  <view class='hen'></view>
+  <view class='box'>
+    <view class='item' wx:for='{{icons}}' wx:key='index'>
+      <image src='{{item.img}}' class='pic'></image>
+      <view class='text5'>{{item.name}}</view>
+    </view>
+  </view>
+  <view class='hen1'></view>
+  <view class='hen2'></view>
+  <view class='content'>
+    <view>会员专享活动</view>
+    <view class='actv'>
+      <view class='text6'>更多活动</view>
+      <image src='../../imgs/imgszhang/circle2.png' class='icon1'></image>
+    </view>
+  </view>
+  <view class='content2'>
+    <view class='con'>
+      <image src='../../imgs/imgszhang/热门.png' class='hot'></image>
+      <view class='text7'>0元看电影,拿大额电影券</view>
+    </view>
+     <view class='con'>
+      <image src='../../imgs/imgszhang/签到.png' class='hot'></image>
+      <view class='text7'>签到兑影券,福利拿不停</view>
+    </view>
+ 
+ 
+  </view>
+  <view class='text8'>我的服务</view>
+  <view class='service' wx:for='{{services}}' wx:key='index' wx:if='{{index%4==0}}'>
+      <view class='serviceshow'>
+        <image src='{{services[index].img}}' class='picture'></image>
+        <view class='text9'>{{services[index].name}}</view>
+      </view>
+      <view class='serviceshow'>
+        <image src='{{services[index+1].img}}' class='picture'></image>
+        <view class='text9'>{{services[index+1].name}}</view>
+      </view>
+      <view class='serviceshow'>
+        <image src='{{services[index+2].img}}' class='picture'></image>
+        <view class='text9'>{{services[index+2].name}}</view>
+      </view>
+      <view class='serviceshow'>
+        <image src='{{services[index+3].img}}' class='picture'></image>
+        <view class='text9'>{{services[index+3].name}}</view>
+      </view>
+  </view>
+</view>

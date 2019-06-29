@@ -1,0 +1,131 @@
+<view id='page'>
+  <view class='row1'>
+    <view class='location' bindtap='onmap'>
+      <view class='text_location'>成都</view>
+      <view class='img_location'></view>
+    </view>
+
+    <view class='search'>
+      <view class='img_search'></view>
+      <view class='text_search'>找艺人、演出、场馆</view>
+    </view>
+  </view>
+
+  <swiper class='shuffling' autoplay='true' duration='{{500}}' interval='{{2000}}'>
+
+    <view wx:for='{{imgUrls}}'>
+
+      <swiper-item>
+        <image class='img_shuffling' src='{{item}}'></image>
+      </swiper-item>
+    </view>
+
+  </swiper>
+  <view class='classification'>
+
+    <view class='one_classification' wx:for="{{classification}}" wx:key="index" wx:if="{{index%5==0}}">
+      <view class='two_classification'>
+        <image class='img_classification' src='{{classification[index].img}}'></image>
+        <view class='text_classification'>{{classification[index].name}}</view>
+
+      </view>
+      <view class='two_classification'>
+        <image class='img_classification' src='{{classification[index+1].img}}'></image>
+        <view class='text_classification'>{{classification[index+1].name}}</view>
+
+      </view>
+      <view class='two_classification'>
+        <image class='img_classification' src='{{classification[index+2].img}}'></image>
+        <view class='text_classification'>{{classification[index+2].name}}</view>
+
+      </view>
+
+      <view class='two_classification'>
+        <image class='img_classification' src='{{classification[index+3].img}}'></image>
+        <view class='text_classification'>{{classification[index+3].name}}</view>
+
+      </view>
+      <view class='two_classification'>
+        <image class='img_classification' src='{{classification[index+4].img}}'></image>
+        <view class='text_classification'>{{classification[index+4].name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="wonderful">
+    <view class='text1_wonderful'>-发现精彩-</view>
+    <view class='collection1_wonderful'>
+      <image class='img1_wonderful' src='../../imgs/performance/发现精彩 (4).png'></image>
+      <image class='img1_wonderful' src='../../imgs/performance/发现精彩 (5).png'></image>
+    </view>
+
+  </view>
+  <view class="collection2_wonderful">
+    <view class='one_wonderful' wx:for="{{wonderful}}" wx:key="index">
+      <!-- <view class='two_wonderful'> -->
+      <view class='text2_wonderful'>{{wonderful[index].name}}</view>
+      <view class='text3_wonderful'>{{wonderful[index].user}}</view>
+      <image class='img2_wonderful' src='{{wonderful[index].img}}'></image>
+
+      <!-- 
+      </view> -->
+    </view>
+  </view>
+  <view class="hot">
+    <view class='text1_hot'>-热门场馆-</view>
+    <view class='box_hot'>
+      <view class='collection1_hot'>
+        <view class='text2_hot'>五粮液成都金融城演出...</view>
+        <view class='box1_hot'>
+          <view class='text3_hot'>更多3场演出...</view>
+          <view class='img1_hot'></view>
+        </view>
+        <view class='box2_hot'>
+          <view class='box3_hot'>
+            <image class='img2_hot' src='../../imgs/performance/热门 (1).png'></image>
+            <view class='text4_hot'>蔡琴2019年【好时光】..</view>
+          </view>
+          <view class='box3_hot'>
+            <image class='img2_hot' src='../../imgs/performance/热门 (4).png'></image>
+            <view class='text4_hot'>许巍“无尽光芒”巡回演出..</view>
+          </view>
+        </view>
+
+
+      </view>
+
+
+
+      <view class='collection1_hot'>
+        <view class='text2_hot'>文殊院初相遇剧场...</view>
+        <view class='box1_hot'>
+          <view class='text3_hot'>更多5场演出...</view>
+          <view class='img1_hot'></view>
+        </view>
+        <view class='box2_hot'>
+          <view class='box3_hot'>
+            <image class='img2_hot' src='../../imgs/performance/热门 (2).png'></image>
+            <view class='text4_hot'>北京爆笑感动话剧《夜未..</view>
+          </view>
+          <view class='box3_hot'>
+            <image class='img2_hot' src='../../imgs/performance/热门 (3).png'></image>
+            <view class='text4_hot'>《因为单身得缘故》爆红网..</view>
+          </view>
+        </view>
+
+
+      </view>
+    </view>
+
+  </view>
+  <view class='border'></view>
+
+  <view class="recommend">
+    <view class='text1_hot'>-为你推荐-</view>
+    <view>
+      <view wx:for="{{music}}" wx:key="index" >
+      <image class='img_recommend' src="{{music[index]}}"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

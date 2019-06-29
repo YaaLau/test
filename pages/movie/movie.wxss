@@ -1,0 +1,246 @@
+/* pages/movie/movie.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 头部 */
+
+.nav {
+  width: 100%;
+  height: 100rpx;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid rgb(216, 216, 216);
+}
+
+.loc {
+  width: 150rpx;
+  height: 99rpx;
+  text-align: center;
+  line-height: 100rpx;
+  /* background-color: yellow; */
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.loc view {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 28rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-left: 10rpx;
+  margin-top: 5rpx;
+}
+
+.nav_item2 {
+  width: 135rpx;
+  height: 95rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  /* background-color: yellow; *//* border-bottom: 5rpx solid rgb(239, 67, 40); */
+}
+
+.nav_item1 {
+  width: 135rpx;
+  height: 95rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: rgb(239, 67, 40);
+  /* background-color: yellow; */
+  border-bottom: 5rpx solid rgb(239, 67, 40);
+}
+
+.search {
+  width: 100rpx;
+  height: 99rpx;
+  text-align: center;
+  line-height: 100rpx;
+  /* background-color: yellow; */
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  color: #ef4238;
+}
+
+/* 轮播图 */
+
+.rollbox swiper {
+  height: 190rpx;
+  width: 750rpx;
+  margin-top: 0rpx;
+}
+
+.rollbox image {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-box .wx-swiper-dots .wx-swiper-dots-horizontal {
+  margin-bottom: 2rpx;
+}
+
+.swiper-box .wx-swiper-dot {
+  width: 20rpx;
+  height: 20rpx;
+  display: inline-flex;
+  margin-left: 5rpx;
+  justify-content: space-between;
+}
+
+.swiper-box .wx-swiper-dot::before {
+  content: '';
+  flex-grow: 1;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10rpx;
+}
+
+.swiper-box .wx-swiper-dot-active::before {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 轮播图end */
+
+.banner {
+  width: 700rpx;
+  height: 150rpx;
+  /* background-color: pink; */
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border-bottom: 1rpx solid rgb(216, 216, 216); */
+}
+
+.b-item {
+  height: 150rpx;
+  width: 150rpx;
+  /* background-color: yellow; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bbox {
+  width: 115rpx;
+  height: 115rpx;
+  /* background-color: green; */
+}
+
+.b-item .bpic {
+  width: 115rpx;
+  height: 115rpx;
+  border-radius: 50%;
+}
+
+.b-item .text {
+  text-align: center;
+  font-size: 28rpx;
+}
+
+/* 广告栏 */
+
+.ad {
+  width: 700rpx;
+  height: 180rpx;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1rpx solid rgb(216, 216, 216);
+}
+
+.ad image {
+  width: 692rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+}
+
+.movies {
+  width: 700rpx;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 700rpx;
+  height: 280rpx;
+  /* background-color: yellow; */
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 1rpx solid rgb(216, 216, 216);
+}
+
+.imgbox {
+  width: 220rpx;
+  height: 260rpx;
+  /* background-color: aqua; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.icon {
+  width: 180rpx;
+  height: 252rpx;
+}
+
+.infobox {
+  width: 100%;
+  height: 240rpx;
+  position: relative;
+  /* background-color: pink; */
+  margin-left: 20rpx;
+}
+
+.infobox .text:nth-child(2) {
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  /* background-color: rebeccapurple; */
+}
+
+.infobox .text:nth-child(3) {
+  width: 50rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+  color: #ffb400;
+  /* display: inline-block; */
+  position: absolute;
+  top: 60rpx;
+  left: 120rpx;
+  /* background-color: pink; */
+}
+
+.pay {
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #ef4238;
+  position: absolute;
+  top: 90rpx;
+  right: 0;
+  border-radius: 10rpx;
+}

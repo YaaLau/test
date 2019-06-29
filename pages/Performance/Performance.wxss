@@ -1,0 +1,263 @@
+#page {
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  background-color: #efeeee;
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+  height: 80rpx;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  /* width: 150rpx;
+  height: 80rpx; *//* background-color: blue; */
+  align-items: center;
+  margin-left: 20rpx;
+}
+
+.text_location {
+  display: flex;
+  font-size: 35rpx;
+  flex-direction: row;
+}
+
+.img_location {
+  margin-left: 10rpx;
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'icomoon';
+  display: flex;
+  flex-direction: row;
+  font-size: 35rpx;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 400rpx;
+  height: 50rpx;
+  color: #eeeded;
+  font-size: 30rpx;
+  background-color: white;
+  border: 1rpx white solid;
+  border-radius: 50rpx;
+  align-content: center;
+  margin-left: 70rpx;
+  align-items: center;
+}
+
+.img_search {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 50rpx;
+}
+
+.shuffling {
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.img_shuffling {
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.classification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400rpx;
+  background-color: #efeeee;
+}
+
+.one_classification {
+  display: flex;
+  width: 660rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  /* background-color: red; */
+}
+
+.two_classification {
+  width: 150rpx;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: pink; */
+}
+
+.img_classification {
+  width: 100rpx;
+  height: 100rpx;
+  /* margin-left: 30rpx; */
+  border-radius: 50%;
+}
+
+.text_classification {
+  font-size: 30rpx;
+}
+
+.text1_wonderful {
+  display: felx;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 35rpx;
+  width: 200rpx;
+  height: 50rpx;
+}
+
+.collection1_wonderful {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+
+.img1_wonderful {
+  margin-left: 30rpx;
+  width: 330rpx;
+  height: 200rpx;
+}
+
+.collection2_wonderful {
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  margin: auto;
+  margin-top: 20rpx;
+  /* height: 400rpx; */
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.one_wonderful {
+  /* text-align: center; */
+  display: flex;
+  width: 220rpx;
+  height: 350rpx;
+  /* border: 1rpx black solid; */
+  border-radius: 20rpx;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #efeeee;
+}
+
+.text2_wonderful {
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+
+.text3_wonderful {
+  font-size: 25rpx;
+  color: #addefd;
+  width: 140rpx;
+  height: 33rpx;
+  border: 1rpx #addefd solid;
+  text-align: center;
+  align-content: center;
+}
+
+.img2_wonderful {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.hot {
+  display: felx;
+  flex-direction: row;
+}
+
+.box_hot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.collection1_hot {
+  display: flex;
+  flex-direction: column;
+  width: 350rpx;
+  height: 400rpx;
+  justify-content: space-around;
+  background-color: #efeeee;
+  border-radius: 30rpx;
+}
+
+.box1_hot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box2_hot {
+  display: flex;
+  flex-direction: row;
+  width: 350rpx;
+  justify-content: space-around;
+}
+
+.img1_hot {
+  font-family: 'icomoon';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25rpx;
+  margin-right: 20rpx;
+}
+
+.img2_hot {
+  width: 150rpx;
+  height: 230rpx;
+}
+
+.box3_hot {
+  width: 150rpx;
+}
+
+.text2_hot {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.text3_hot {
+  font-size: 25rpx;
+}
+
+.text4_hot {
+  font-size: 20rpx;
+}
+
+.text1_hot {
+  display: felx;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 35rpx;
+  width: 200rpx;
+  height: 50rpx;
+}
+
+.border {
+  margin-top: 40rpx;
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #efeeee;
+}
+
+.img_recommend {
+  width: 700rpx;
+  height: 300rpx;
+}

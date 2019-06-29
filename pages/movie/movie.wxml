@@ -1,0 +1,63 @@
+<!--pages/movie/movie.wxml-->
+<view class='container'>
+  <!-- 头部 -->
+  <view class='nav'>
+    <view class='loc'>成都
+      <view></view>
+    </view>
+    <view class='nav_item1' >正在上映</view>
+    <view class='nav_item2' bindtap='target'>即将上映</view>
+    <view class='search'></view>
+  </view>
+
+  <!-- 轮播图 -->
+  <view class='rollbox'>
+    <swiper class='swiper-box' autoplay='ture' duration='1000' interval='2000' indicator-dots='ture'>
+      <view wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}"></image>
+        </swiper-item>
+      </view>
+    </swiper>
+  </view>
+
+  <!-- 选项栏 -->
+  <view class='banner'>
+    <view class='b-item' wx:for="{{banner}}" wx:key="index">
+
+      <view class='bbox'>
+        <image class='bpic' src='{{item.img}}'></image>
+      </view>
+
+      <view class='text'>{{item.name}}</view>
+
+    </view>
+
+
+
+
+  </view>
+  <!-- 广告栏 -->
+  <view class='ad'>
+    <image src='../../imgs/ad.png'></image>
+  </view>
+  <!-- 电影 -->
+  <view class='movies'>
+    <view class='row' wx:for="{{list}}" wx:key="index">
+
+      <view class='imgbox'>
+        <image class='icon' src="{{item.img}}"></image>
+      </view>
+
+      <view class='infobox'>
+        <view class='text'>{{item.name}}</view>
+        <view class='text'>猫眼评分</view>
+        <view class='text'>{{item.score}}</view>
+        <view class='pay'>购票</view>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>
